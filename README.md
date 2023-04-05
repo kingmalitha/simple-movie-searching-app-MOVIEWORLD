@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Simple-Movie-Searching Website with React and OMDB API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Technologies](https://skillicons.dev/icons?i=react,git)
 
-## Available Scripts
+## 🔰Introduction
 
-In the project directory, you can run:
+<p>
+This is a simple movie searching website with React and OMDB API. You can search for movies and get the information about them.
+</p>
 
-### `npm start`
+## 🔰Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Search for movies
+- Get the information about the movies
+- Get the poster of the movies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔰Technologies
 
-### `npm test`
+- [React](https://reactjs.org/docs/getting-started.html)
+- [OMDB API](https://www.omdbapi.com/apikey.aspx)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔰Installation
 
-### `npm run build`
+<ol>
+  <li>Clone the repository</li>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/kingmalitha/simple-movie-searching-app-MOVIEWORLD.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <li>Install dependencies</li>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+cd simple-movie-searching-app-MOVIEWORLD
+npm install
+```
 
-### `npm run eject`
+  <li>Create an API key in OMBD and replace with user API key</li>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+const API_URL = 'http://www.omdbapi.com?apikey=<YOUR_API_KEY>';
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Example: If your API  key is 'efejcsk2'
+const API_URL = 'http://www.omdbapi.com?apikey=efejcsk2';
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  <li>Start the development server</li>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm start
+```
 
-## Learn More
+  <li>Open http://localhost:3000 to view it in the browser.</li>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+</ol>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔰Screenshots
 
-### Code Splitting
+![Screenshot (1)](Screenshot1.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot (2)](Screenshot2.png)
 
-### Analyzing the Bundle Size
+## 🔰Conclusion
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>
+In conclusion, MovieWorld is a simple yet powerful movie search web application that provides users with an easy way to search for movies and view movie information. With its responsive design and user-friendly interface, MovieWorld can be enjoyed on both mobile and desktop devices. 
+</p>
